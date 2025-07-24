@@ -12,6 +12,11 @@ header {
   padding: 20px 0;
   text-align: center;
 }
+header .header-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 nav {
   background: #003366;
   display: flex;
