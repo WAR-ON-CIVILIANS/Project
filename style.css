@@ -1,71 +1,43 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  line-height: 1.6;
+  margin: 0;
   background: #f8f9fa;
   color: #333;
+  line-height: 1.6;
 }
-
-/* ✅ Fixed header with image background */
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: url("gettyimages-78962112-2048x2048.jpg") no-repeat center center;
-  background-size: cover;
-  color: white;
-  padding: 60px 0;
+  background: #004080;
+  color: #fff;
+  padding: 20px 0;
   text-align: center;
-  z-index: 1000;
 }
 
-/* ✅ Header content constrained */
 header .header-content {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
 }
-
-/* ✅ Navigation bar just below fixed header */
 nav {
-  position: fixed;
-  top: 140px; /* adjust to match header height */
-  left: 0;
-  width: 100%;
   background: #003366;
   display: flex;
   justify-content: center;
   gap: 20px;
   padding: 10px;
   flex-wrap: wrap;
-  z-index: 999;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
-
 nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
-
 nav a:hover {
   text-decoration: underline;
 }
-
-/* ✅ Push content below fixed header + nav */
 section {
   padding: 40px 20px;
   max-width: 900px;
-  margin: 220px auto 0 auto; /* 140px header + 60px nav + 20px spacing */
+  margin: auto;
 }
-
-/* Headings */
-h2 {
-  color: #004080;
-}
-
-/* Footer */
 footer {
   background: #003366;
   color: white;
@@ -73,4 +45,5 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
+
 
