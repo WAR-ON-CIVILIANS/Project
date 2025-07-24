@@ -1,84 +1,154 @@
+/* Folder Structure (suggested)
+project-root/
+|-- index.html (Home)
+|-- about.html (About the Project)
+|-- team.html (Team)
+|-- news.html (News and Events)
+|-- jobs.html (Job Offers)
+|-- style.css
+*/
 
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+nav {
+  background-color: #333;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 2em;
+}
+
+/* index.html */
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Research Project</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f8f9fa; color: #333; }
-    header { background: #004080; color: white; padding: 30px 0; text-align: center; }
-    nav { background: #003366; display: flex; justify-content: center; flex-wrap: wrap; padding: 10px; }
-    nav a { color: white; text-decoration: none; margin: 10px 15px; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    section { padding: 40px 20px; max-width: 900px; margin: auto; display: none; }
-    section.active { display: block; }
-    h2 { color: #004080; }
-    footer { background: #003366; color: white; text-align: center; padding: 20px; margin-top: 40px; }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Project Name</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>Research Project</h1>
-  <p>Advancing Knowledge Together</p>
-</header>
-<nav>
-  <a href="#" onclick="showSection('home')">Home</a>
-  <a href="#" onclick="showSection('about')">About</a>
-  <a href="#" onclick="showSection('team')">Team</a>
-  <a href="#" onclick="showSection('publications')">Publications</a>
-  <a href="#" onclick="showSection('news')">News & Events</a>
-  <a href="#" onclick="showSection('jobs')">Job Offers</a>
-  <a href="#" onclick="showSection('dataset')">Dataset</a>
-</nav>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About the Project</a>
+    <a href="team.html">Team</a>
+    <a href="news.html">News and Events</a>
+    <a href="jobs.html">Job Offers</a>
+  </nav>
+  <div class="container">
+    <h1>Welcome to Our Project</h1>
+    <p>This is a descriptive home page where we introduce the project, its goals, and its vision. Explore the site to learn more.</p>
+  </div>
+</body>
+</html>
 
-<section id="home" class="active">
-  <h2>Home</h2>
-  <p>This is the homepage of our research project. Stay informed about the project and its progress.</p>
-</section>
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About the Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About the Project</a>
+    <a href="team.html">Team</a>
+    <a href="news.html">News and Events</a>
+    <a href="jobs.html">Job Offers</a>
+  </nav>
+  <div class="container">
+    <h1>About the Project</h1>
+    <p>This page describes the purpose and scope of the project, its background, and the problems it aims to solve.</p>
+  </div>
+</body>
+</html>
 
-<section id="about">
-  <h2>About the Project</h2>
-  <p>Our research project explores [topic]. It aims to deliver [goals].</p>
-</section>
+<!-- team.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Team</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About the Project</a>
+    <a href="team.html">Team</a>
+    <a href="news.html">News and Events</a>
+    <a href="jobs.html">Job Offers</a>
+  </nav>
+  <div class="container">
+    <h1>Our Team</h1>
+    <p>Meet the people who are working hard to bring this project to life. Each member brings unique skills and dedication.</p>
+  </div>
+</body>
+</html>
 
-<section id="team">
-  <h2>Team</h2>
-  <p>Our team consists of dedicated researchers and staff from various institutions.</p>
-</section>
+<!-- news.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>News and Events</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About the Project</a>
+    <a href="team.html">Team</a>
+    <a href="news.html">News and Events</a>
+    <a href="jobs.html">Job Offers</a>
+  </nav>
+  <div class="container">
+    <h1>News and Events</h1>
+    <p>Stay up to date with the latest news and events related to our project. We post updates and upcoming opportunities here.</p>
+  </div>
+</body>
+</html>
 
-<section id="publications">
-  <h2>Publications</h2>
-  <ul>
-    <li>2025: Title One</li>
-    <li>2024: Title Two</li>
-  </ul>
-</section>
-
-<section id="news">
-  <h2>News and Events</h2>
-  <p>Latest news and upcoming events will be listed here.</p>
-</section>
-
-<section id="jobs">
-  <h2>Job Offers</h2>
-  <p>We are hiring! Check back soon for open positions.</p>
-</section>
-
-<section id="dataset">
-  <h2>Dataset</h2>
-  <p>We will release datasets relevant to our research for public use.</p>
-</section>
-
-<footer>
-  &copy; 2025 Research Project | Powered by GitHub Pages
-</footer>
-
-<script>
-  function showSection(id) {
-    document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
-    document.getElementById(id).classList.add('active');
-  }
-</script>
+<!-- jobs.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Offers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About the Project</a>
+    <a href="team.html">Team</a>
+    <a href="news.html">News and Events</a>
+    <a href="jobs.html">Job Offers</a>
+  </nav>
+  <div class="container">
+    <h1>Job Offers</h1>
+    <p>Check out open job positions and opportunities to work with our team. We're always looking for great talent.</p>
+  </div>
 </body>
 </html>
