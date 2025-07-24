@@ -16,20 +16,29 @@ header .header-content {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
+  z-index: 1;
+} 
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+  z-index: 0;
 }
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: #003366;
   display: flex;
   justify-content: center;
   gap: 20px;
   padding: 10px;
   flex-wrap: wrap;
-  position: sticky;
-  top: 0;
   z-index: 1000;
-}
-nav {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 nav a {
@@ -43,8 +52,12 @@ nav a:hover {
 section {
   padding: 40px 20px;
   max-width: 900px;
-  margin: auto;
+  margin: 80px auto 0 auto; /* pushed down below fixed nav */
 }
+h2 {
+  color: #004080;
+}
+
 footer {
   background: #003366;
   color: white;
