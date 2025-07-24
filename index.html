@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,117 +6,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Research Project</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      line-height: 1.6;
-      background: #f8f9fa;
-      color: #333;
-    }
-    header {
-      background: #004080;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
-    }
-    nav {
-      background: #003366;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 10px;
-      flex-wrap: wrap;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #004080;
-    }
-    footer {
-      background: #003366;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; background: #f8f9fa; color: #333; }
+    header { background: #004080; color: white; padding: 30px 0; text-align: center; }
+    nav { background: #003366; display: flex; justify-content: center; flex-wrap: wrap; padding: 10px; }
+    nav a { color: white; text-decoration: none; margin: 10px 15px; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 40px 20px; max-width: 900px; margin: auto; display: none; }
+    section.active { display: block; }
+    h2 { color: #004080; }
+    footer { background: #003366; color: white; text-align: center; padding: 20px; margin-top: 40px; }
   </style>
 </head>
 <body>
+<header>
+  <h1>Research Project</h1>
+  <p>Advancing Knowledge Together</p>
+</header>
+<nav>
+  <a href="#" onclick="showSection('home')">Home</a>
+  <a href="#" onclick="showSection('about')">About</a>
+  <a href="#" onclick="showSection('team')">Team</a>
+  <a href="#" onclick="showSection('publications')">Publications</a>
+  <a href="#" onclick="showSection('news')">News & Events</a>
+  <a href="#" onclick="showSection('jobs')">Job Offers</a>
+  <a href="#" onclick="showSection('dataset')">Dataset</a>
+</nav>
 
-  <header>
-    <h1>Welcome to Our Research Project</h1>
-    <p>Advancing Knowledge Through Collaborative Science</p>
-  </header>
+<section id="home" class="active">
+  <h2>Home</h2>
+  <p>This is the homepage of our research project. Stay informed about the project and its progress.</p>
+</section>
 
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About the Project</a>
-    <a href="#team">Team</a>
-    <a href="#publications">Publications</a>
-    <a href="#news">News & Events</a>
-    <a href="#jobs">Job Offers</a>
-    <a href="#dataset">Dataset</a>
-  </nav>
+<section id="about">
+  <h2>About the Project</h2>
+  <p>Our research project explores [topic]. It aims to deliver [goals].</p>
+</section>
 
-  <section id="home">
-    <h2>Home</h2>
-    <p>Welcome to the official page of our research project. Here you’ll find information about our work, team members, data, and more.</p>
-  </section>
+<section id="team">
+  <h2>Team</h2>
+  <p>Our team consists of dedicated researchers and staff from various institutions.</p>
+</section>
 
-  <section id="about">
-    <h2>About the Project</h2>
-    <p>This research project investigates [brief description]. Our goal is to [objective]. Funded by [funder], the project runs from [start] to [end].</p>
-  </section>
+<section id="publications">
+  <h2>Publications</h2>
+  <ul>
+    <li>2025: Title One</li>
+    <li>2024: Title Two</li>
+  </ul>
+</section>
 
-  <section id="team">
-    <h2>Team</h2>
-    <p>Meet our interdisciplinary team of researchers from institutions across Europe. Coming soon: full team bios and profiles.</p>
-  </section>
+<section id="news">
+  <h2>News and Events</h2>
+  <p>Latest news and upcoming events will be listed here.</p>
+</section>
 
-  <section id="publications">
-    <h2>Publications</h2>
-    <ul>
-      <li>Author A. (2024). <em>Title of Paper</em>. Journal Name.</li>
-      <li>Author B. (2023). <em>Another Publication</em>. Journal Name.</li>
-    </ul>
-  </section>
+<section id="jobs">
+  <h2>Job Offers</h2>
+  <p>We are hiring! Check back soon for open positions.</p>
+</section>
 
-  <section id="news">
-    <h2>News and Events</h2>
-    <ul>
-      <li><strong>23 July 2025:</strong> Kickoff meeting held in Paris.</li>
-      <li><strong>Upcoming:</strong> Workshop on [topic] – October 2025.</li>
-    </ul>
-  </section>
+<section id="dataset">
+  <h2>Dataset</h2>
+  <p>We will release datasets relevant to our research for public use.</p>
+</section>
 
-  <section id="jobs">
-    <h2>Job Offers</h2>
-    <p>We are currently recruiting for the following positions:</p>
-    <ul>
-      <li>Postdoctoral Fellow – Deadline: Sept 15, 2025</li>
-      <li>Research Assistant – Rolling application</li>
-    </ul>
-  </section>
+<footer>
+  &copy; 2025 Research Project | Powered by GitHub Pages
+</footer>
 
-  <section id="dataset">
-    <h2>Dataset</h2>
-    <p>Our project will release an open-access dataset in 2026. Stay tuned for download links and documentation.</p>
-  </section>
-
-  <footer>
-    &copy; 2025 Research Project Team | Powered by GitHub Pages
-  </footer>
-
+<script>
+  function showSection(id) {
+    document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+  }
+</script>
 </body>
 </html>
