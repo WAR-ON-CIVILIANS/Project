@@ -71,8 +71,9 @@ section {
   font-size: 1em;
   color: #333;
 }
+
 .member-photo {
-  width: 160px;
+  width: 120px;
   height: 180px;
   object-fit: cover;
   border-radius: 8px;
