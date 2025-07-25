@@ -73,5 +73,20 @@
   <footer>
     &copy; 2025 Research Project Team | Powered by GitHub Pages
   </footer>
+
+  <script>
+  document.querySelectorAll('.read-more-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const moreText = button.previousElementSibling;
+      if (moreText.style.display === 'inline') {
+        moreText.style.display = 'none';
+        button.textContent = 'Read more';
+      } else {
+        moreText.style.display = 'inline';
+        button.textContent = 'Read less';
+      }
+    });
+  });
+</script>
 </body>
 </html>
