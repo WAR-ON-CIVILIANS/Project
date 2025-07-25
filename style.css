@@ -72,6 +72,24 @@ section {
   color: #333;
 }
 
+.more-text {
+  display: none;
+}
+
+.read-more-btn {
+  display: inline-block;
+  margin-top: 5px;
+  background: none;
+  border: none;
+  color: #007BFF;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 0;
+}
+
+.read-more-btn:hover {
+  text-decoration: underline;
+}
 .member-photo {
   width: 140px;
   height: 200px;
