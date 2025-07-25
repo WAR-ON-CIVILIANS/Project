@@ -25,27 +25,36 @@ nav {
   padding: 10px;
   flex-wrap: wrap;
 }
-nav a {
+
+nav a,
+nav .dropbtn {
   color: white;
   text-decoration: none;
-  font-weight: bold;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-/* Dropdown Navigation */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-.dropbtn {
+  font-weight: bold; /* Make all nav links and dropbtn bold */
   background-color: transparent;
   border: none;
   font-size: 1em;
   padding: 0;
   cursor: pointer;
-  color: white; /* ✅ sets text color to white */
 }
+
+nav a:hover,
+.dropbtn:hover {
+  text-decoration: underline;
+}
+
+nav a.active,
+nav .dropbtn.active {
+  text-decoration: underline;
+  font-weight: bold; /* Ensure active links stay bold and underlined */
+}
+
+/* Dropdown Navigation */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -69,9 +78,7 @@ nav a:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.dropbtn:hover {
-  text-decoration: underline;
-}
+
 section {
   padding: 40px 20px;
   max-width: 900px;
