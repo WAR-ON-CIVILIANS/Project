@@ -32,12 +32,23 @@
     <div class="member-text">
       <p class="member-name"><strong>Sheldon GARON</strong></p>
       <p class="member-title"><strong>Principle Investigator</strong></p>
-      <p class="member-bio">
-        Professor Garon is ......
-       <span class="more-text">He ensures all projects stay on schedule and on budget, with strong leadership and a keen sense of strategic direction.</span>
-        <button class="read-more-btn">Read more</button>
-      </p>
-    </div>
+      <div class="member-bio">
+  <p>
+    Sheldon Garon is the Nissan Professor of History and East Asian Studies at Princeton University. A specialist in modern Japanese history, he also writes transnational/global history.
+  </p>
+  <div class="more-text">
+    <p>
+      Awarded a European Research Council Advanced Grant, he currently directs the project, ‘The Global War on Civilians, 1905–1945’, based at the Centre d’histoire de Sciences Po in Paris.
+    </p>
+    <p>
+      Publications include <em>Beyond Our Means: Why America Spends While the World Saves</em> (2012); <em>Molding Japanese Minds: The State in Everyday Life</em> (1997); and <em>The State and Labor in Modern Japan</em> (1987). His explorations in global history include: “On the Transnational Destruction of Cities: What Japan and the United States Learned from the Bombing of Britain and Germany in the Second World War,” <em>Past & Present</em> (2020); “Operation STARVATION, 1945: A Transnational History of Blockades and the Defeat of Japan,” <em>The International History Review</em> (2024); and “Transnational History and Japan’s ‘Comparative Advantage’,” <em>Journal of Japanese Studies</em> (2017).
+    </p>
+    <p>
+      He has supervised more than 30 Ph.D. dissertations at Princeton. A Ph.D. in History from Yale University, he has received numerous awards and fellowships, including Japan’s Order of the Rising Sun: Golden Rays, the Humboldt Research Award, and the Marie Sklodowska-Curie Fellowship at the Paris Institute for Advanced Study.
+    </p>
+  </div>
+  <button class="read-more-btn">Read more</button>
+</div>
     <img class="member-photo" src="Garon-photo.jpg" alt="Sheldon GARON">
   </div>
 
@@ -77,16 +88,19 @@
   <script>
   document.querySelectorAll('.read-more-btn').forEach(button => {
     button.addEventListener('click', () => {
-      const moreText = button.previousElementSibling;
-      if (moreText.style.display === 'inline') {
+      const moreText = button.parentElement.querySelector('.more-text');
+      
+      if (moreText.style.display === 'block') {
         moreText.style.display = 'none';
         button.textContent = 'Read more';
       } else {
-        moreText.style.display = 'inline';
+        moreText.style.display = 'block';
         button.textContent = 'Read less';
       }
     });
   });
+</script>
+
 </script>
 </body>
 </html>
