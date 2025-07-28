@@ -2,119 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>News and Events</title>
-  <link rel="stylesheet" href="style.css">
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #333;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    nav {
-      background-color: #444;
-      overflow: hidden;
-    }
-
-    nav a {
-      float: left;
-      display: block;
-      color: #fff;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-    }
-
-    nav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-
-    .dropdown {
-      float: left;
-      overflow: hidden;
-    }
-
-    .dropdown .dropbtn {
-      font-size: 16px;
-      border: none;
-      outline: none;
-      color: white;
-      padding: 14px 20px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0;
-    }
-
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-
-    .dropdown-content a {
-      float: none;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-    }
-
-    .dropdown-content a:hover {
-      background-color: #ddd;
-    }
-
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-
-    .news-date {
-      font-size: 0.9em;
-      color: #777;
-      margin-top: -10px;
-      margin-bottom: 20px;
-    }
-
-    .article-image {
-      float: left;
-      max-width: 300px;
-      margin-right: 20px;
-      margin-bottom: 20px;
-    }
-
-    .article-content {
-      overflow: auto;
-      padding: 20px;
-      line-height: 1.6;
-    }
-
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 15px 0;
-      margin-top: 40px;
-    }
-
-    h1 {
-      font-size: 1.8em;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>News and Events - Sheldon Garon Keynote</title>
+  <link rel="stylesheet" href="../style.css" />
 </head>
-
 <body>
   <header>
     <div class="header-content">
@@ -128,45 +19,49 @@
   </header>
 
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About the Project</a>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About the Project</a>
+
     <div class="dropdown">
-      <a href="people.html" class="dropbtn">People</a>
+      <a href="../people.html" class="dropbtn">People</a>
       <div class="dropdown-content">
-        <a href="team.html">Team</a>
-        <a href="advisory.html">Advisory Board</a>
+        <a href="../team.html">Team</a>
+        <a href="../advisory.html">Advisory Board</a>
       </div>
     </div>
-    <a href="publications.html">Publications</a>
-    <a href="news.html">News & Events</a>
-    <a href="jobs.html">Job Offers</a>
-    <a href="dataset.html">Dataset</a>
+
+    <a href="../publications.html">Publications</a>
+    <a href="index.html" class="active">News & Events</a>
+    <a href="../jobs.html">Job Offers</a>
+    <a href="../dataset.html">Dataset</a>
   </nav>
 
-  <section class="article-content">
-    <img src="../images/garon-kcl-keynote.jpg" alt="Professor Sheldon Garon speaking at King's College London" class="article-image">
-
-    <p class="news-date">11–13 June 2025</p>
-
-    <p>
-      Professor Sheldon Garon, Principal Investigator of the <em>WAR-ON-CIVILIANS</em> project and Nissan Professor of History at Princeton University, delivered a keynote address at the international conference <strong>"The Second World War: 80 Years On"</strong>, held at King’s College London.
-    </p>
-
-    <p>
-      The conference was organized by the <strong>Second World War Research Group</strong> to mark the 80th anniversary of the surrender of the Axis powers and the end of the Second World War. The event brought together historians and researchers from around the world to reassess and advance our understanding of the war's global impact.
-    </p>
-
-    <p>
-      In his keynote, Professor Garon drew on his transnational research into the evolution of wartime civilian targeting and the shaping of “home fronts.” His talk emphasized the interconnected nature of warfare strategies across nations and the legacy of these practices in the modern world. The lecture sparked discussion about new comparative methodologies and historical frameworks in the study of total war.
-    </p>
-
-    <p>
-      <strong>Conference:</strong> The Second World War: 80 Years On  
-      <br>
-      <strong>Location:</strong> Waterloo Campus, King’s College London, United Kingdom  
-      <br>
-      <strong>Organized by:</strong> The Second World War Research Group
-    </p>
+  <section>
+    <article class="news-item">
+      <img src="../images/garon-kcl-keynote.jpg" alt="Professor Sheldon Garon speaking at King's College London" />
+      <div class="news-content">
+        <div class="news-date">June 11-13, 2025</div>
+        <h2 class="news-title">Professor Sheldon Garon Delivers Keynote at King's College London</h2>
+        <p class="news-excerpt">
+          Professor Sheldon Garon, Principal Investigator of the <em>WAR-ON-CIVILIANS</em> project and Nissan Professor of History at Princeton University, delivered a keynote address at the international conference <strong>"The Second World War: 80 Years On"</strong>, held at King’s College London from June 11 to 13, 2025.
+        </p>
+        <p class="news-excerpt">
+          The conference was organized by the <strong>Second World War Research Group</strong> to mark the 80th anniversary of the surrender of the Axis powers and the end of the Second World War. The event gathered historians worldwide to reassess and deepen our understanding of the war's lasting impact.
+        </p>
+        <p class="news-excerpt">
+          In his keynote, Professor Garon emphasized the transnational nature of wartime civilian targeting and the shaping of “home fronts.” His lecture sparked vibrant discussion on new comparative methodologies and historical frameworks in total war studies.
+        </p>
+        <p class="news-excerpt">
+          This landmark anniversary offers a moment for reflection on scholarly achievements and encourages future research directions.
+        </p>
+        <p>
+          <strong>Conference:</strong> The Second World War: 80 Years On<br />
+          <strong>Dates:</strong> June 11–13, 2025<br />
+          <strong>Location:</strong> Waterloo Campus, King’s College London, United Kingdom<br />
+          <strong>Organizer:</strong> The Second World War Research Group
+        </p>
+      </div>
+    </article>
   </section>
 
   <footer>
@@ -174,3 +69,4 @@
   </footer>
 </body>
 </html>
+
