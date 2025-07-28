@@ -78,7 +78,10 @@ nav .dropbtn.active {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+.logo-section {
+  padding-bottom: 10px; /* reduce bottom space */
+  padding-top: 20px;     /* optional: reduce top space */
+}
 section {
   padding: 40px 20px;
   max-width: 900px;
