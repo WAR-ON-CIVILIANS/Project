@@ -229,7 +229,9 @@ section {
     text-align: left;
   }
 }
-
+.special-heading {
+  margin-top: 0px; /* or whatever space you want */
+}
 footer {
   background: #003366;
   color: white;
