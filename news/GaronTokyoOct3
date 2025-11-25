@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>News and Events - Sheldon Garon Keynote in Tokyo</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>The Global War On Civilians: 1905-1945</h1>
+      <p>
+        ERC Advanced Grant that explores the evolution of types of warfare
+        that explicitly targeted the enemy’s civil population during the first half
+        of the 20th century
+      </p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About the Project</a>
+
+    <div class="dropdown">
+      <a href="../people.html" class="dropbtn">People</a>
+      <div class="dropdown-content">
+        <a href="../team.html">Team</a>
+        <a href="../advisory.html">Advisory Board</a>
+      </div>
+    </div>
+
+    <a href="../news.html" class="active">News & Events</a>    
+  </nav>
+
+  <section>
+    <article class="news-item">
+      <img src="../news/AnneEpisode45.jpg" alt="Anne van Mourik Podcast Episode 45" />
+      <div class="news-content">
+        <div class="news-date">3 October, 2025</div>
+        <h2 class="news-title">Professor Garon delivered a talk in Tokyo...</h2>
+        <p class="news-excerpt">
+          ...
+        </p>
+        <p class="news-excerpt">
+          The book offers a Europe-wide account of life under Nazi occupation told from the perspective of the occupied, exploring fear, deprivation, and everyday strategies of survival. How did a climate of fear affect daily life in occupied Europe? Why is it not useful to talk in terms of ‘collaboration’ and ‘resistance’? And what can the book teach us about how to understand and respond to situations of occupation today?  
+        </p>
+        
+      
+      </div>
+    </article>
+    <div style="margin-top: 30px;">
+  <a href="../news.html" class="read-more" style="font-weight: bold; font-size: 0.95em;">← Back to News & Events</a>
+</div>
+  </section>
+
+  <footer>
+    &copy; 2025 Research Project Team | Powered by GitHub Pages
+  </footer>
+</body>
+</html>
