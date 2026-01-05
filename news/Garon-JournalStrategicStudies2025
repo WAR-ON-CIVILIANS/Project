@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>News and Events - Sheldon Garon Lecture at DIJ Tokyo</title>
+  <title>News and Events - Professor Garon's publication in The Journal of Strategic Studies</title>
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
@@ -35,10 +35,10 @@
 
   <section>
     <article class="news-item">
-      <img src="../news/image3Oct14.jpg" alt="Garon Tokyo 3 October" />
+      <img src="../news/JSS-cover.jpg" alt="Journal of Strategic Studies" />
       <div class="news-content">
-        <div class="news-date">14 October 2025</div>
-        <h2 class="news-title">Professor Garon issues a publication in the Journal For Strategic Studies</h2>
+        <div class="news-date">10 December 2025</div>
+        <h2 class="news-title">Professor Garon issues a publication in The Journal of Strategic Studies</h2>
         
         <p class="news-excerpt">
           Professor Sheldon Garon (Princeton University & Sciences Po) ...  
