@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>News and Events - Kick-off Conference</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>The Global War On Civilians: 1905-1945</h1>
+      <p>
+        ERC Advanced Grant that explores the evolution of types of warfare
+        that explicitly targeted the enemy’s civil population during the first half
+        of the 20th century
+      </p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About the Project</a>
+
+    <div class="dropdown">
+      <a href="../people.html" class="dropbtn">People</a>
+      <div class="dropdown-content">
+        <a href="../team.html">Team</a>
+        <a href="../advisory.html">Advisory Board</a>
+      </div>
+    </div>
+
+    <a href="../news.html" class="active">News & Events</a>
+  </nav>
+
+  <section>
+    <div class="news-item">
+      <img class="photo" src="../BoydLectureNov2025.jpg" alt="Boyd Lecture" />
+      <div class="news-content">
+        <div class="news-date">6 November 2025</div>
+        <div class="news-title">Boyd van Dijk delivered a lecture "Preparing for War on Civilians in the Interwar International Order"</div>
+        <p class="news-excerpt">
+         Senior Researcher Boyd van Dijk examines the interwar period as a formative moment in the development of modern norms for civilian protection, showing how international law evolved amid the rise of blockade, bombing, and economic warfare.
+        </p>
+        <p>
+Boyd van Dijk delivered a lecture in Sciences Po, exploring the interwar years as a crucial yet often misunderstood period in the history of civilian protection. In this lecture, the interwar period is explored as a formative era that forged the modern framework for civilian protection, even as civilians became primary targets of indiscriminate warfare through economic sanctions, blockades, and aerial bombardment. </p>
+        <p>
+Rather than simply reiterating E.H. Carr’s claim of international law’s “failure,” this period is presented as a crucible in which key concepts such as civilian immunity, proportionality, military objectives, civilian objects, and the right to humanitarian assistance were first articulated, conceptualized, contested, and globalized—though unevenly designed, practiced, and enforced.        </p>
+        <p>
+From Haile Selassie’s dramatic 1936 appeal to the League of Nations to international outrage over Guernica, Shanghai, and Addis Ababa, international law provided states, activists, and organizations with a powerful vocabulary for justification, condemnation, and mobilization. This emerging legal language proved strategically crucial by establishing expectations of restraint that, while sometimes violated, could never be entirely dismissed.        </p>
+        <p>
+Despite their importance, these early norms remained fragile, hierarchical, and exclusionary—often in more complex ways than current historiography suggests. The interwar legacies of regulating blockade and bombing—as protective shields, weapons, and tools of legitimacy—continue to shape contemporary debates on civilian targeting, sieges, and starvation.        </p>
+      </div>
+         </div>
+      <div style="margin-top: 30px;">
+  <a href="../news.html" class="read-more" style="font-weight: bold; font-size: 0.95em;">← Back to News & Events</a>
+</div>
+  </section>
+
+  <footer>
+    &copy; 2025 WAR-ON-CIVILIANS Project Team | Powered by GitHub Pages
+  </footer>
+</body>
+</html>
