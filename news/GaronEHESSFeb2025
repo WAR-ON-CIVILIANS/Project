@@ -1,0 +1,63 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>News and Events - Professor Garon's publication in The Journal of Strategic Studies</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>The Global War On Civilians: 1905-1945</h1>
+      <p>
+        ERC Advanced Grant that explores the evolution of types of warfare
+        that explicitly targeted the enemy’s civil population during the first half
+        of the 20th century
+      </p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About the Project</a>
+
+    <div class="dropdown">
+      <a href="../people.html" class="dropbtn">People</a>
+      <div class="dropdown-content">
+        <a href="../team.html">Team</a>
+        <a href="../advisory.html">Advisory Board</a>
+      </div>
+    </div>
+
+    <a href="../news.html" class="active">News & Events</a> 
+    <a href="../publications.html">Publications</a>
+  </nav>
+
+ <section>
+    <article class="news-item">
+      <img src="../news/JSS-cover.jpg" alt="Journal of Strategic Studies" />
+     <div class="news-content">
+        <div class="news-date">10 December 2025</div>
+        <h2 class="news-title">Professor Garon has published a new article in The Journal of Strategic Studies</h2>
+        <p class="news-excerpt">
+Professor Garon has published a new article in The Journal of Strategic Studies entitled “Toward a Global History of Bombing in the Second World War: Taking Japan Seriously.”
+        </p>
+        <p class="news-excerpt">
+The publication revises key arguments from Richard Overy’s Rain of Ruin, a recent work that reassesses the firebombing and atomic bombing of Japan. By drawing on Japanese-language sources, and taking Japan as a major industrialised Axis power, Garon’s article contends that key assumptions about the meaning of strategic bombing require reconsideration and contributes to a deeper understanding of the Japanese experience during the Second World War.</p>
+        <p class="news-excerpt">
+          To read the article: 
+          <a href="https://www.tandfonline.com/doi/full/10.1080/01402390.2025.2583054" target="_blank" rel="noopener">LINK</a>
+        </p>
+       </div>
+    </article>
+    <div style="margin-top: 30px;">
+  <a href="../news.html" class="read-more" style="font-weight: bold; font-size: 0.95em;">← Back to News & Events</a>
+</div>
+  </section>
+
+  <footer>
+    &copy; 2025 Research Project Team | Powered by GitHub Pages
+  </footer>
+</body>
+</html>
