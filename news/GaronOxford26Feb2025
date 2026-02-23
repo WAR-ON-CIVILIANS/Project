@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>News and Events - Upcoming Talk in Oxford by Professor Garon</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>The Global War On Civilians: 1905-1945</h1>
+      <p>
+        ERC Advanced Grant that explores the evolution of types of warfare
+        that explicitly targeted the enemy’s civil population during the first half
+        of the 20th century
+      </p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About the Project</a>
+
+    <div class="dropdown">
+      <a href="../people.html" class="dropbtn">People</a>
+      <div class="dropdown-content">
+        <a href="../team.html">Team</a>
+        <a href="../advisory.html">Advisory Board</a>
+      </div>
+    </div>
+
+    <a href="../news.html" class="active">News & Events</a> 
+    <a href="../publications.html">Publications</a>
+  </nav>
+
+ <section>
+    <article class="news-item">
+      <img src="../news/Tokyo Sumida Sept.jpg" alt="EHESS talk" />
+     <div class="news-content">
+        <div class="news-date">2 February 2026</div>
+        <h2 class="news-title">Upcoming Talk at Oxford by Professor Garon</h2>
+        <p class="news-excerpt">
+Sheldon Garon, Principal Investigator in "The Global War on Civilians" project, will give a talk entitled “Morale on the home front, 1914-1945: Its transnational construction and destruction” at the St Antony's College, University of Oxford.</p>
+        <p class="news-excerpt">
+The lecture forms part of the European Studies Seminar program of the European Studies Centre.</p> <p class="news-excerpt">
+The summary of the lecture:</p> <p class="news-excerpt">
+Although few could define it, “civilian morale” became one of the twentieth century’s most lethal concepts. In its name, millions of civilians were bombed and starved, as belligerents sought to break enemy morale through air raids and food blockades. How did it become normal to wage war by attacking cities and civilian morale? From the First World War through the Second, ideas and practices surrounding morale and the “home fronts” circulated rapidly in a transnational process. During 1914–18, states claimed to have discovered “civilian morale”: British and German blockaders explicitly targeted it, while governments in Germany, Austria-Hungary, Russia, and France compiled national “moral reports.” Interwar strategists such as Giulio Douhet and Hugh Trenchard argued that aerial bombardment would decisively shatter civilian morale. These ideas culminated in the area bombing of German and Italian cities during the Second World War and also shaped the Asia-Pacific theatre. Japanese air forces bombed Chinese cities in 1937–39 with morale as a central target, while U.S. strategists later endorsed firebombing and food blockades—including “Operation STARVATION” in 1945—as means of forcing surrender. The narrative ends in 1945 with the rise of American social psychologists who theorised morale destruction at the dawn of the Cold War.
+
+    </p> <p class="news-excerpt">
+The talk will take place on Thursday, 26 February, at 17:00, at St Antony's College - Main Site: Seminar room, European Studies Centre, 70 Woodstock Road, Oxford OX2 6HR. </p> <p class="news-excerpt">
+This research is conducted within the framework of the ERC Advanced Grant project, “The Global War on Civilians, 1905–1945,” hosted by the Centre d’histoire de Sciences Po (Paris).</p>
+<p class="news-excerpt"> The seminar is open to the public, and no registration is required. </p>
+      
+       </div>
+    </article>
+    <div style="margin-top: 30px;">
+  <a href="../news.html" class="read-more" style="font-weight: bold; font-size: 0.95em;">← Back to News & Events</a>
+</div>
+  </section>
+
+  <footer>
+    &copy; 2025 Research Project Team | Powered by GitHub Pages
+  </footer>
+</body>
+</html>
